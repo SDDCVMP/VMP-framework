@@ -69,7 +69,7 @@ NOTE: inputs folder already have pre-configured files A1.conf to A32.conf based 
 
 ``` bash
 $ mvn clean package
-$ java -jar target/DynamicVMPFramework.jar inputs/A1.conf inputs/vmpr.conf inputs/scenarios.conf outputs/
+$ java -jar target/DynamicVMPFramework.jar inputs/A1.conf inputs/empty.conf inputs/scenarios.conf outputs/
 ```
 
 ##

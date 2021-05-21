@@ -77,13 +77,13 @@ $ java -jar target/DynamicVMPFramework.jar inputs/A1.conf inputs/empty.conf inpu
 
 The framework generates the following output files:
 
-- *economical_revenue*: Economical revenue - f_2(x) [1].
+- *f1_f2_f3_results*: Metrics F1, F2 and F3 of the execution [1].
+- *scenarios_scores*: Objetive Function per each executed scenario - f(x) [1].
 - *power_consumption*: Power consumption - f_1(x) [1].
-- *reconfiguration_call_times*: Number of VMP reconfiguration calls [1].
+- *economical_revenue*: Economical revenue - f_2(x) [1].
 - *wasted_resources*: Wasted resources (one column per resource) - f_3(x) [1].
 - *wasted_resources_ratio*: Wasted resources (considering all resources) - f_3(x) [1].
-- *scenarios_scores*: Objetive Function per each executed scenario - f(x) [1].
-- *f1_f2_f3_results*: Metrics F1, F2 and F3 of the execution [1].
+- *reconfiguration_call_times*: Number of VMP reconfiguration calls [1].
 
 ##
 #### References

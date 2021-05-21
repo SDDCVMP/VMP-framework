@@ -86,5 +86,7 @@ The framework generates the following files:
 - *wasted_resources_ratio*: Average of wasted resources (considering all resources)
 - *scenarios_scores*: Score per each executed scenario.
 
-[1] López-Pires, F., Barán, B., Benítez, L., Zalimben, S., & Amarilla, A. (2018). Virtual machine placement for elastic infrastructures in overbooked cloud computing datacenters under uncertainty. Future Generation Computer Systems, 79, 830-848.
-[2] López-Pires, F., Barán, B., Pereira, C., Velázquez, M., & González, O. (2019). Evaluation of Two-Phase Virtual Machine Placement Algorithms for Green Cloud Datacenters. In 2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems (FAS* W) (pp. 62-67). IEEE.
+##
+#### References
+- [1] López-Pires, F., Barán, B., Benítez, L., Zalimben, S., & Amarilla, A. (2018). Virtual machine placement for elastic infrastructures in overbooked cloud computing datacenters under uncertainty. Future Generation Computer Systems, 79, 830-848.
+- [2] López-Pires, F., Barán, B., Pereira, C., Velázquez, M., & González, O. (2019). Evaluation of Two-Phase Virtual Machine Placement Algorithms for Green Cloud Datacenters. In 2019 IEEE 4th International Workshops on Foundations and Applications of Self* Systems (FAS* W) (pp. 62-67). IEEE.

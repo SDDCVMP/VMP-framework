@@ -85,6 +85,8 @@ The framework generates the following output files:
 - *wasted_resources_ratio*: Wasted resources (considering all resources) - f_3(x) [1].
 - *reconfiguration_call_times*: Number of VMP reconfiguration calls [1].
 
+NOTE: each output file includes suffixes about the configuration of the iVMP and VMPr phase. 
+
 ##
 #### References
 - [1] López-Pires, F., Barán, B., Benítez, L., Zalimben, S., & Amarilla, A. (2018). Virtual machine placement for elastic infrastructures in overbooked cloud computing datacenters under uncertainty. Future Generation Computer Systems, 79, 830-848.

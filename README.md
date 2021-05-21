@@ -75,16 +75,15 @@ $ java -jar target/DynamicVMPFramework.jar inputs/A1.conf inputs/empty.conf inpu
 ##
 #### Output Files
 
-The framework generates the following files:
+The framework generates the following output files:
 
-- *economical_penalties*: Average economical penalties per each SLA violation. 
-- *economical_revenue*: Average ecomical revenue per each VM hosted in the main provider.
-- *leasing_costs*: Average economical revenue lost per each VM hosted in an alternative provider from federation.
-- *power_consumption*: Average power energy consumed 
-- *reconfiguration_call_times*: Number of reconfiguration calls.
-- *wasted_resources*: Average of wasted resources (one column per resource)
-- *wasted_resources_ratio*: Average of wasted resources (considering all resources)
-- *scenarios_scores*: Score per each executed scenario.
+- *economical_revenue*: Economical revenue - f_2(x) [1].
+- *power_consumption*: Power consumption - f_1(x) [1].
+- *reconfiguration_call_times*: Number of VMP reconfiguration calls [1].
+- *wasted_resources*: Wasted resources (one column per resource) - f_3(x) [1].
+- *wasted_resources_ratio*: Wasted resources (considering all resources) - f_3(x) [1].
+- *scenarios_scores*: Objetive Function per each executed scenario - f(x) [1].
+- *f1_f2_f3_results*: Metrics F1, F2 and F3 of the execution [1].
 
 ##
 #### References

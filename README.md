@@ -56,12 +56,12 @@ $ java -jar target/DynamicVMPFramework.jar inputs/ivmp.conf inputs/vmpr.conf inp
 - EXECUTION_DURATION=1
 - LINK_CAPACITY=100
 - MIGRATION_FACTOR_LOAD=10
-# defines the VMPr Triggering method: Periodically or Prediction-Based [1].
-- VMPr_TRIGGERING= [PERIODICALLY, PREDICTION-BASED]
-# when using Prediction-Based VMPr Triggering method. See Section 5.3.3 in [1].
+# defines the VMPr Triggering method: Periodically, Prediction-Based or Threshold-Based [1]. When set to threshold THRESHOLD-BASED, VMPr must be set to MMT.
+- VMPr_TRIGGERING= [PERIODICALLY, PREDICTION-BASED, THRESHOLD-BASED]
+# set these parameters when using Prediction-Based VMPr Triggering method. See Section 5.3.3 in [1].
 - FORECAST_SIZE=5
 - HISTORICAL_DATA_SIZE=10
-# defines the VMPr Recovering method: Cancelation or Update-Based [1].
+# defines the VMPr Recovering method: Cancelation or Update-Based [1] when using a CENTRALIZED APPROACH.
 - VMPr_RECOVERING= [CANCELLATION, UPDATE-BASED]
 ```
 
